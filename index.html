@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anshika | Portfolio - CS Undergrad & Author</title>
+  <meta name="description" content="Portfolio of Anshika - Computer Science Undergraduate at Newton School of Technology, 2x Published Author, SIH National Finalist, and Athlete." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-sphere sphere-1"></div>
+  <div class="glow-sphere sphere-2"></div>
+  <div class="glow-sphere sphere-3"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-text">Anshika<span class="accent-dot">.</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#publications" class="nav-link">Books & Arts</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link nav-cta">Get in Touch</a>
+      </div>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light/dark theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge-pill">
+          <span class="badge-dot"></span>
+          <span>18-Year-Old Technologist & Creative Mind</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Anshika</span>
+        </h1>
+        
+        <p class="hero-subtitle">
+          B.Tech Computer Science student at <strong>Newton School of Technology (Rishihood University)</strong>. 
+          Smart India Hackathon national contender, 2-time published author, state-level netball athlete, and artist bringing analytical rigor and creative vision together.
+        </p>
+
+        <div class="hero-tags">
+          <span class="tag"><i class="fa-solid fa-laptop-code"></i> CS Undergrad</span>
+          <span class="tag"><i class="fa-solid fa-trophy"></i> SIH National Finalist</span>
+          <span class="tag"><i class="fa-solid fa-book-open"></i> 2x Published Author</span>
+          <span class="tag"><i class="fa-solid fa-medal"></i> Athlete & Artist</span>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#achievements" class="btn btn-primary">
+            <span>Explore Achievements</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Let's Connect</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </a>
+        </div>
+
+        <div class="social-links-bar">
+          <a href="https://github.com/anshika26041-debug" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="mailto:anshika@example.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="profile-card-glass">
+          <div class="avatar-wrapper">
+            <div class="avatar-fallback">
+              <span>A</span>
+            </div>
+            <div class="status-indicator" title="Available for collaborations"></div>
+          </div>
+          <h2 class="profile-name">Anshika</h2>
+          <p class="profile-role">Computer Science & Engineering</p>
+          <p class="profile-location">
+            <i class="fa-solid fa-location-dot"></i> Sonipat, Haryana | Roots: Bathinda, Punjab
+          </p>
+
+          <div class="mini-stats-grid">
+            <div class="mini-stat">
+              <span class="stat-number">2</span>
+              <span class="stat-label">Published Books</span>
+            </div>
+            <div class="mini-stat">
+              <span class="stat-number">National</span>
+              <span class="stat-label">SIH Round</span>
+            </div>
+            <div class="mini-stat">
+              <span class="stat-number">Multiple</span>
+              <span class="stat-label">Art Awards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Highlights Numbers -->
+  <section class="stats-ribbon">
+    <div class="container stats-container">
+      <div class="stat-item">
+        <i class="fa-solid fa-code-branch stat-icon"></i>
+        <div class="stat-info">
+          <h3>SIH '24</h3>
+          <p>National Finalist (Competing with top IITs)</p>
+        </div>
+      </div>
+      <div class="stat-item">
+        <i class="fa-solid fa-book-bookmark stat-icon"></i>
+        <div class="stat-info">
+          <h3>2 Books</h3>
+          <p>Penned in 10th &amp; 12th Grades</p>
+        </div>
+      </div>
+      <div class="stat-item">
+        <i class="fa-solid fa-volleyball stat-icon"></i>
+        <div class="stat-info">
+          <h3>Inter-State Nominee</h3>
+          <p>Netball Inter-School Athlete</p>
+        </div>
+      </div>
+      <div class="stat-item">
+        <i class="fa-solid fa-palette stat-icon"></i>
+        <div class="stat-info">
+          <h3>Fine Arts</h3>
+          <p>Multi-competition Award Winner</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Driven by Logic, Inspired by Creativity</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card story-card">
+          <div class="card-icon"><i class="fa-solid fa-compass"></i></div>
+          <h3>My Journey</h3>
+          <p>
+            Rooted in the vibrant town of <strong>Bathinda, Punjab</strong>, my early education was shaped with discipline and curiosity at 
+            <strong>St. Xavier's Convent School</strong>. Today, at 18, I am based in <strong>Sonipat</strong>, pursuing my B.Tech in Computer Science 
+            at the innovative <strong>Newton School of Technology (Rishihood University)</strong>.
+          </p>
+          <p>
+            I thrive at the intersection where analytical engineering meets creative expression — whether that means architecting algorithms for high-stakes 
+            national hackathons or crafting stories across published pages.
+          </p>
+        </div>
+
+        <div class="about-card philosophy-card">
+          <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <h3>What Drives Me</h3>
+          <p>
+            I don't believe in staying within a single box. Technology gives me the tools to build scalable solutions to real-world problems, while writing, 
+            fine arts, and competitive sports teach me empathy, visual thinking, resilience, and unyielding team spirit.
+          </p>
+          <ul class="about-highlights-list">
+            <li><i class="fa-solid fa-circle-check"></i> Relentless problem-solver tackling national-level challenges</li>
+            <li><i class="fa-solid fa-circle-check"></i> Author with structured discipline and written articulation</li>
+            <li><i class="fa-solid fa-circle-check"></i> Athletic endurance and team-first leadership mindset</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hackathons & Achievements -->
+  <section class="section achievements-section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Competitions & Hackathons</span>
+        <h2 class="section-title">Milestones in Tech & Beyond</h2>
+        <p class="section-subtitle">Challenging the status quo and competing at the highest tiers.</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="achievements-grid">
+        <!-- SIH Card -->
+        <div class="achievement-card featured">
+          <div class="featured-badge">National Stage</div>
+          <div class="achieve-header">
+            <div class="achieve-icon"><i class="fa-solid fa-fire"></i></div>
+            <div class="achieve-meta">
+              <h3>Smart India Hackathon (SIH)</h3>
+              <span class="achieve-sub">National Round Finalist</span>
+            </div>
+          </div>
+          <p class="achieve-desc">
+            Earned selection for the prestigious national rounds of Smart India Hackathon — India's biggest open innovation model. 
+            Competing shoulder-to-shoulder with top tier collegiate teams across the country, including teams from premier IITs.
+          </p>
+          <div class="achieve-tags">
+            <span>National Finalist</span>
+            <span>Problem Solving</span>
+            <span>Innovation</span>
+            <span>Team Collaboration</span>
+          </div>
+        </div>
+
+        <!-- Construct 2.0 Card -->
+        <div class="achievement-card">
+          <div class="achieve-header">
+            <div class="achieve-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+            <div class="achieve-meta">
+              <h3>Construct 2.0 Hackathon</h3>
+              <span class="achieve-sub">Participant & Innovator</span>
+            </div>
+          </div>
+          <p class="achieve-desc">
+            Participated in Construct 2.0, prototyping rapid tech solutions under tight deadlines. 
+            Sharpened agile development techniques, cross-functional collaboration, and practical problem resolution.
+          </p>
+          <div class="achieve-tags">
+            <span>Hackathon</span>
+            <span>Rapid Prototyping</span>
+            <span>Web / Tech</span>
+          </div>
+        </div>
+
+        <!-- Sports Card -->
+        <div class="achievement-card">
+          <div class="achieve-header">
+            <div class="achieve-icon"><i class="fa-solid fa-trophy"></i></div>
+            <div class="achieve-meta">
+              <h3>Netball Championship</h3>
+              <span class="achieve-sub">Inter-School &amp; Inter-State Selection</span>
+            </div>
+          </div>
+          <p class="achieve-desc">
+            Competed in high-energy Netball tournaments at the inter-school level, showcasing athletic prowess and on-court leadership. 
+            Earned a prestigious selection for the Inter-State Championship representation.
+          </p>
+          <div class="achieve-tags">
+            <span>Inter-School</span>
+            <span>State Selection</span>
+            <span>Team Leadership</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications & Creative Arts -->
+  <section class="section creative-section" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Literary & Creative Arts</span>
+        <h2 class="section-title">Published Works & Visual Arts</h2>
+        <p class="section-subtitle">Bridging imagination, storytelling, and aesthetic craft.</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="creative-grid">
+        <!-- Book 1 -->
+        <div class="creative-card">
+          <div class="book-badge">Authored in Class 10</div>
+          <div class="creative-icon"><i class="fa-solid fa-book"></i></div>
+          <h3>Published Book I</h3>
+          <span class="creative-date">Secondary School Milestone</span>
+          <p>
+            Penned and published my debut book at a young age while balancing rigorous 10th-grade academics. 
+            A testament to early dedication, structured storytelling, and literary perseverance.
+          </p>
+          <div class="card-footer-pill">
+            <i class="fa-solid fa-circle-check"></i> Published Work
+          </div>
+        </div>
+
+        <!-- Book 2 -->
+        <div class="creative-card">
+          <div class="book-badge">Authored in Class 12</div>
+          <div class="creative-icon"><i class="fa-solid fa-feather-pointed"></i></div>
+          <h3>Published Book II</h3>
+          <span class="creative-date">Senior Secondary Milestone</span>
+          <p>
+            Authored my second published work during high school. Expanded my creative repertoire, dealing with mature themes, 
+            articulate narrative design, and editorial craftsmanship.
+          </p>
+          <div class="card-footer-pill">
+            <i class="fa-solid fa-circle-check"></i> Published Work
+          </div>
+        </div>
+
+        <!-- Fine Arts & Painting -->
+        <div class="creative-card">
+          <div class="book-badge">Multiple Wins</div>
+          <div class="creative-icon"><i class="fa-solid fa-palette"></i></div>
+          <h3>Drawing &amp; Painting</h3>
+          <span class="creative-date">Artistic Pursuits</span>
+          <p>
+            Winner of multiple inter-school and regional competitions in drawing, sketch work, and painting. 
+            This visual and spatial sensibility strongly enriches my approach to UI/UX and product design.
+          </p>
+          <div class="card-footer-pill">
+            <i class="fa-solid fa-award"></i> Multi-Competition Winner
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Timeline -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Path</span>
+        <h2 class="section-title">Education Journey</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline">
+        <!-- NST -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Present • Undergraduate</span>
+            <h3>B.Tech in Computer Science &amp; Engineering</h3>
+            <h4 class="institute-name">Newton School of Technology (Rishihood University)</h4>
+            <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Sonipat, Haryana</span>
+            <p>
+              Undergraduate program emphasizing modern computer science fundamentals, practical software engineering, 
+              algorithmic thinking, and product innovation. Active in national hackathons and collegiate tech initiatives.
+            </p>
+          </div>
+        </div>
+
+        <!-- Schooling -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-badge">Foundations &amp; High School</span>
+            <h3>Primary, Secondary &amp; Senior Secondary Education</h3>
+            <h4 class="institute-name">St. Xavier's Convent School</h4>
+            <span class="timeline-location"><i class="fa-solid fa-location-dot"></i> Bathinda, Punjab</span>
+            <p>
+              Completed comprehensive schooling with strong academic achievements. Authored two published books 
+              during 10th and 12th grades, competed in Netball at inter-school levels, and won several fine arts contests.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Capabilities</span>
+        <h2 class="section-title">Skills &amp; Competencies</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-code"></i>
+            <h3>Computer Science</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-chip">C / C++</span>
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">Data Structures &amp; Algorithms</span>
+            <span class="skill-chip">Object-Oriented Programming</span>
+            <span class="skill-chip">Web Development (HTML5, CSS3, JS)</span>
+            <span class="skill-chip">Git &amp; GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Problem Solving &amp; Innovation</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-chip">Hackathon Prototyping</span>
+            <span class="skill-chip">Algorithmic Logic</span>
+            <span class="skill-chip">Analytical Thinking</span>
+            <span class="skill-chip">System Design Basics</span>
+            <span class="skill-chip">Research &amp; Exploration</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h3>Creative &amp; Leadership</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-chip">Book Writing &amp; Publishing</span>
+            <span class="skill-chip">Visual Arts &amp; Drawing</span>
+            <span class="skill-chip">UI / Aesthetic Sensibility</span>
+            <span class="skill-chip">Competitive Athletics (Netball)</span>
+            <span class="skill-chip">Team Leadership &amp; Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Reach Out</span>
+        <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+        <p class="section-subtitle">Whether it's for hackathons, engineering projects, literary discussions, or tech opportunities.</p>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-card-info">
+          <h3>Get In Touch</h3>
+          <p>
+            I am always eager to learn, build, and explore new horizons. Feel free to connect for opportunities or just a friendly conversation about tech and literature!
+          </p>
+
+          <div class="info-list">
+            <div class="info-row">
+              <i class="fa-solid fa-user-graduate"></i>
+              <div>
+                <strong>Current Education</strong>
+                <span>Newton School of Technology (Rishihood University), Sonipat</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fa-solid fa-house"></i>
+              <div>
+                <strong>Hometown</strong>
+                <span>Bathinda, Punjab, India</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>anshika@example.com <small>(Update with your personal email)</small></span>
+              </div>
+            </div>
+            <div class="info-row">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/anshika26041-debug</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" onsubmit="event.preventDefault(); handleFormSubmit();">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="e.g. John Doe" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="e.g. john@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project collaboration / Opportunity" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">
+            <span>Send Message</span>
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          
+          <div id="formFeedback" class="form-feedback"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear"></span> Anshika. Built with passion, curiosity, and code.</p>
+      <div class="footer-links">
+        <a href="#hero">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
